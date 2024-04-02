@@ -22,7 +22,7 @@ class _PaginaProfessorState extends State<PaginaProfessor> {
             toolbarHeight: 70,
             actions: [
               IconButton(onPressed: ()=> {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>const PageLogin()))
+                Navigator.pop(context, MaterialPageRoute(builder: (context)=>const PageLogin()))
               }, 
               icon: Icon(Icons.logout))
             ],
